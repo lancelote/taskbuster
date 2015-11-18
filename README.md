@@ -20,3 +20,20 @@ Different settings can be found in the `taskbuster.settings` folder.
 export SECRET_KEY="..."
 export DJANGO_SETTINGS_MODULE="taskbuster.settings.development"
 ```
+
+### Coverage
+
+Run coverage tool:
+```bash
+coverage run --source='.' manage.py test
+```
+
+Console report:
+```bash
+coverage report
+```
+
+Generate HTML report (`htmlcov/index.html`):
+```bash
+coverage html
+```
