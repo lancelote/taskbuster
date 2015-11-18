@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Pavel Karateev -- Developer -- @Lancel0te
 
 # THANKS
 
-    <name>
+    Thanks to Marina Mele for excellent tutorial
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    Django
+    HTML5 Boilerplate
+    Twitter Bootstrap
