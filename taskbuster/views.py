@@ -7,13 +7,10 @@ from django.utils.timezone import now
 
 
 def home(request):
-    """Index page
+    """Index page view
 
-    Args:
-        request: HTTP request
-
-    Returns:
-        Index page render
+    :param request: HTTP request
+    :return: index page render
     """
     today = datetime.date.today()
     return render(request, 'taskbuster/index.html',
@@ -21,13 +18,10 @@ def home(request):
 
 
 def home_files(request, filename):
-    """Render file
+    """File view (robots.txt and humans.txt
 
-    Args:
-        request: HTTP request
-        filename (str): file name (ex. robots.txt)
-
-    Returns:
-        Given file render
+    :param request: HTTP request
+    :param filename: humans.txt or robots.txt
+    :return: file render
     """
     return render(request, filename, {}, content_type='text/plain')
