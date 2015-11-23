@@ -1,3 +1,4 @@
 django
-pytz  # To deal with time zones
+pytz      # To deal with time zones
+psycopg2  # PostgreSQL adapter
 
