@@ -1,4 +1,5 @@
 django
-pytz      # To deal with time zones
-psycopg2  # PostgreSQL adapter
+django-allauth  # Google authentication
+pytz            # To deal with time zones
+psycopg2        # PostgreSQL adapter
 

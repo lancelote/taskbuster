@@ -106,3 +106,7 @@ crashlytics-build.properties
 ### Custom Settings
 # Database file
 db.sqlite3
+
+# Fixtures
+taskbuster/fixtures
+
