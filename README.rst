@@ -7,6 +7,11 @@ Code for |taskbuster_tutorial|.
 
     <a href="http://www.marinamele.com/taskbuster-django-tutorial" target="_blank">Taskbuster Django Tutorial</a>
 
+ToDo
+----
+
+- [ ] Try to run server and test in the new environment and update documentation after
+
 Development
 -----------
 

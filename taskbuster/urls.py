@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'^(?P<filename>(robots.txt)|(humans.txt))$',
         home_files, name='home-files'),
     url(r'^accounts/', include('allauth.urls')),
+    url(r'^accounts/logout/$', 'django.contrib.auth.logout', {'next_page': '/'}),
     url(r'i18n/', include('django.conf.urls.i18n')),
 ]
 
